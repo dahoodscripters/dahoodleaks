@@ -1,0 +1,44 @@
+getgenv().Settings = {
+    host = 0, -- host ID goes here
+    fps = 10,
+    prefix = '.',
+    advertmsg = 'perko xdd',
+}
+getgenv().Alts = {
+    Alt1 = 0, -- The alt account you'll be using for dropping cash.
+    Alt2 = 0,
+    Alt3 = 0,
+    Alt4 = 0,
+    Alt5 = 0,
+    Alt6 = 0,
+    CrasherIDs = { 123456789 } -- The account you'll be crashing with don't know if this works still.
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dahoodscripters/dahoodleaks/main/Vatted-Alt-Control-Source"))()
+
+--[[commands:
+.bring - brings your alt accounts
+.drop - drops money on your alts
+.stop - stop Dropping money on alts
+.god - makes your alt unkillable
+.freeze - freezes your alts
+.unfreeze - unfreeze your alts
+.hide - hides your alts
+.unhide - unhide your alts
+.wal - equips wallet on your alts
+.unwal - unequip wallet
+.block - blocks/defean on your alt
+.unblock - unblock/undefean
+.crash - loads up custom crash
+.ad (message) - advertise on your alts
+.unad - unadvertise
+.group - group your alts
+.ungroup - ungroup the character of your alt
+.float - floats your alt
+.unfloat - unfloats your alt
+.vibe - vibes on your alt (dances)
+.unvibe - unvibes on your alt
+.reset - resets the character of your alts
+.mask - Buys mask and equips on your alt
+.unmask - unequip alts mask
+.fps (1-60) - Changes the FPS on your alt
+--]]
