@@ -216,6 +216,8 @@ local function main_cmds(msg,plr)
                     blocking = false
                     game.ReplicatedStorage.MainEvent:FireServer("Block",false)
                 end
+                msg = string.lower(msg)
+        cmd = string.split(msg," ")
             elseif cmd[1] == Prefix.."bring" then
                 if cmd[2] == "." then
                     player.Character.HumanoidRootPart.CFrame = operator.Character.HumanoidRootPart.CFrame
