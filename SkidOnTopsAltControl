@@ -64,7 +64,7 @@ local function notify(a,b,c)
 end
 
 local function annouce(anc)
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(anc, 'All')
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 end
 
 local function fancynum(num)
