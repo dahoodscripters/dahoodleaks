@@ -152,7 +152,7 @@ local function main_cmds(msg,plr)
                     end)
                     if err then print(err) end
                 end
-                msg = string.lower(msg)
+               msg = string.lower(msg)
         cmd = string.split(msg," ")
             elseif cmd[1] == Prefix.."drop" then
                 if cmd[2] == "." then
@@ -190,6 +190,8 @@ local function main_cmds(msg,plr)
                     dropping = false
                     annouce(player.Name.." stopped dropping!")
                 end
+                msg = string.lower(msg)
+        cmd = string.split(msg," ")
             elseif cmd[1] == Prefix.."block" then
                 if cmd[2] == "." then
                     annouce(player.Name.." started blocking!")
