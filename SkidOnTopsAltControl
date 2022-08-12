@@ -37,7 +37,7 @@ Places: admin
 ]]
 
 -- ^^^^^^^^^ OPEN SOURCE!!!
-
+LPlayer.Chatted:Connect(function(msg)
 getgenv().Prefix = "."
 
 getgenv().Operator = {2416381177}
