@@ -152,6 +152,8 @@ local function main_cmds(msg,plr)
                     end)
                     if err then print(err) end
                 end
+                msg = string.lower(msg)
+        cmd = string.split(msg," ")
             elseif cmd[1] == Prefix.."drop" then
                 if cmd[2] == "." then
                     annouce(player.Name.." started dropping!")
