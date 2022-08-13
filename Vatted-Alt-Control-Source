@@ -80,7 +80,7 @@ local l = {
     msg_loop = "joe"
 }
 local function m(n)
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(n, "All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 end
 local o = {
     Bank = {
