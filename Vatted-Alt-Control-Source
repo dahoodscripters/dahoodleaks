@@ -392,15 +392,6 @@ local function p(n, q)
                     )
                 )()
             end
-        elseif n == Settings["Prefix"] .. "counter" then
-            if not b then
-                loadstring(
-                    game:HttpGet(
-                        "https://raw.githubusercontent.com/JVSXNWRLD/Da-Hood-Low-GFX/main/Da%20Hood%20Low%20GFX"
-                        
-                    )
-                end
-            end
         elseif n == Settings["Prefix"] .. "unad" then
             if not b then
                 l["LoopMsg"] = false
@@ -699,5 +690,4 @@ for Z, q in pairs(game.Players:GetChildren()) do
 end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/grandpascripts/error502/main/AntiAfk.lua"))()
 game.StarterGui:SetCore("SendNotification", {Title = "Vatted", Text = "Alt Control has been executed succesfully", Duration = 10})
-wait(10)
-game.StarterGui:SetCore("SendNotification", {Title = "vatted#0707", Text = "Thank you for using Vatted's Alt Control", Duration = 9999999999999999})
+end
