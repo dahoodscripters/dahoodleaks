@@ -4,12 +4,12 @@
 
 
 getgenv().Settings = {
-    Host = {"Yungdawn13"},
+    Host = {"AP_238"},
     Prefix = ".",
     FPS_CAP = 25,
 }
 getgenv().Alts = {
-    Alt1 = "AP_238",--Up to 40 Alt Accounts Copy the text to add more alts
+    Alt1 = "AM_LANDONALT",--Up to 40 Alt Accounts Copy the text to add more alts
 }
 --------------------------------------
 
